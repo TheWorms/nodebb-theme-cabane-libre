@@ -9,4 +9,4 @@ Cabane Libre theme for NodeBB
 
 ## Screenshots
 
-
+![preview](screenshot.png)

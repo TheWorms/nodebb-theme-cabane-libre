@@ -1,14 +1,14 @@
 {
-  "name": "nodebb-theme-persona",
-  "version": "8.0.6",
+  "name": "nodebb-theme-cabane-libre",
+  "version": "1.2.3",
   "nbbpm": {
-    "compatibility": "^1.8.0"
+    "compatibility": "^1.8.1"
   },
-  "description": "Persona theme for NodeBB",
+  "description": "Cabane Libre theme for NodeBB",
   "main": "theme.less",
   "repository": {
     "type": "git",
-    "url": "https://github.com/psychobunny/nodebb-theme-persona"
+    "url": "https://github.com/TheWorms/nodebb-theme-cabane-libre"
   },
   "keywords": [
     "nodebb",
@@ -19,24 +19,14 @@
   ],
   "contributors": [
     {
-      "name": "Andrew Rodrigues",
-      "email": "andrew@designcreateplay.com",
-      "url": "https://github.com/psychobunny"
-    },
-    {
-      "name": "Julian Lam",
-      "email": "julian@designcreateplay.com",
-      "url": "https://github.com/julianlam"
-    },
-    {
-      "name": "Barış Soner Uşaklı",
-      "email": "baris@designcreateplay.com",
-      "url": "https://github.com/barisusakli"
+      "name": "The Worm's",
+      "email": "theworms@theworms.fr",
+      "url": "https://github.com/TheWorms"
     }
   ],
   "license": "BSD-2-Clause",
   "bugs": {
-    "url": "https://github.com/psychobunny/nodebb-theme-persona/issues"
+    "url": "https://github.com/TheWorms/nodebb-theme-cabane-libre/issues"
   },
   "dependencies": {
     "striptags": "^3.1.1",

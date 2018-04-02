@@ -1,14 +1,12 @@
-Persona theme for NodeBB
+Cabane Libre theme for NodeBB
 ====================
 
-Persona is the new default theme for NodeBB as of v0.7.1
+Cabane Libre theme for NodeBB
 
 ## Addons
 
-[Recent Cards](https://github.com/psychobunny/nodebb-plugin-recent-cards)
+[Recent Cards](https://github.com/TheWorms/nodebb-plugin-recent-cards-cabane-libre)
 
 ## Screenshots
 
-![](https://d2gn4xht817m0g.cloudfront.net/p/product_screenshots/images/original/000/570/286/570286-db378dfd28256a8fabacc9129b3638dc678ac393.png?1439315393)
 
-![](https://d2gn4xht817m0g.cloudfront.net/p/product_screenshots/images/original/000/570/287/570287-5875c63ce086d361b76d94e5bc7cc88a5fd34b8b.png?1439315419)

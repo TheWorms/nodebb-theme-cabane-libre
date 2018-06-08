@@ -18,7 +18,7 @@
 		<!-- IF hasFilter -->
 		<div class="alert alert-warning">
 			<p class="pull-right">
-				<a href="{config.relative_path}/flags">[[flags:filter-reset]]</a>
+				<a href="{config.relative_path}/flags?reset=1">[[flags:filter-reset]]</a>
 			</p>
 			[[flags:filter-active]]
 		</div>
@@ -63,5 +63,7 @@
 				<!-- END flags -->
 			</tbody>
 		</table>
+
+		<!-- IMPORT partials/paginator.tpl -->
 	</div>
 </div>

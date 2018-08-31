@@ -36,9 +36,9 @@
 			<span>
 				<!-- IF posts.user.custom_profile_info.length -->
 				&#124;
-				<!-- BEGIN custom_profile_info -->
+				<!-- BEGIN posts.user.custom_profile_info -->
 				{posts.user.custom_profile_info.content}
-				<!-- END custom_profile_info -->
+				<!-- END posts.user.custom_profile_info -->
 				<!-- ENDIF posts.user.custom_profile_info.length -->
 			</span>
 		</span>
@@ -67,14 +67,14 @@
 		<!-- IF !reputation:disabled -->
 		<span class="votes">
 			<a component="post/upvote" href="#" class="<!-- IF posts.upvoted -->upvoted<!-- ENDIF posts.upvoted -->">
-				<i class="fa fa-thumbs-o-up"></i>
+				<i class="fa fa-chevron-up"></i>
 			</a>
 
 			<span component="post/vote-count" data-votes="{posts.votes}">{posts.votes}</span>
 
 			<!-- IF !downvote:disabled -->
 			<a component="post/downvote" href="#" class="<!-- IF posts.downvoted -->downvoted<!-- ENDIF posts.downvoted -->">
-				<i class="fa fa-thumbs-o-down"></i>
+				<i class="fa fa-chevron-down"></i>
 			</a>
 			<!-- ENDIF !downvote:disabled -->
 		</span>

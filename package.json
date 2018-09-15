@@ -19,6 +19,21 @@
   ],
   "contributors": [
     {
+      "name": "Andrew Rodrigues",
+      "email": "andrew@designcreateplay.com",
+      "url": "https://github.com/psychobunny"
+    },
+    {
+      "name": "Julian Lam",
+      "email": "julian@designcreateplay.com",
+      "url": "https://github.com/julianlam"
+    },
+    {
+      "name": "Barış Soner Uşaklı",
+      "email": "baris@designcreateplay.com",
+      "url": "https://github.com/barisusakli"
+    },
+    {
       "name": "The Worm's",
       "email": "theworms@theworms.fr",
       "url": "https://github.com/TheWorms"
@@ -29,7 +44,7 @@
     "url": "https://github.com/TheWorms/nodebb-theme-cabane-libre/issues"
   },
   "dependencies": {
-    "striptags": "^3.1.1",
-    "pulling": "^1.1.2"
+    "pulling": "^2.0.0",
+    "striptags": "^3.1.1"
   }
 }

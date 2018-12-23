@@ -150,7 +150,6 @@
 
 		[component="chat/input"] {
 			flex: 1;
-			background: none;
 			box-shadow: none;
 			border: 0;
 			border: 1px solid @gray-lighter;
@@ -189,8 +188,8 @@
 
 	> li.no_active {
 		height: initial;
-    	padding-bottom: 0.5rem;
-    	text-align: center;
+		padding-bottom: 0.5rem;
+		text-align: center;
 	}
 
 	> li {
@@ -445,7 +444,7 @@
 				margin-left: 13px;
 
 				a {
-					color: @gray-dark;
+					color: @text-color;
 				}
 			}
 
@@ -455,6 +454,11 @@
 				display: inline-block;
 				margin-left: 10px;
 				.user-select(none);
+			}
+
+			.chat-ip, .chat-edited {
+				margin-left: 5px;
+				margin-top: 2px;
 			}
 
 			.message-body {

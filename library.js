@@ -1,8 +1,8 @@
 'use strict';
 
 var striptags = require('striptags');
-var meta = module.parent.require('./src/meta');
-var user = module.parent.require('./src/user');
+var meta = require.main.require('./src/meta');
+var user = require.main.require('./src/user');
 
 var library = {};
 

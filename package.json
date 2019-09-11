@@ -1,6 +1,6 @@
 {
   "name": "nodebb-theme-cabane-libre",
-  "version": "1.4.28",
+  "version": "1.4.29",
   "nbbpm": {
     "compatibility": "^1.13.0"
   },
